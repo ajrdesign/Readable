@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript"> 
+$(document).ready(function(){
+$(".flip, .neg").click(function(){
+    $(".panel").slideToggle("slow");
+    $(".flip").toggle();
+    $(".neg").toggle();
+  });
+});
+</script>
+<style>
+div.panel,p.flip
+{
+margin:0px;
+padding:5px;
+text-align:center;
+background:#e5eecc;
+border:solid 1px #c3c3c3;
+cursor:pointer;
+}
+
+p.neg
+{
+margin:0px;
+padding:5px;
+text-align:center;
+background:#e5eecc;
+border:solid 1px #c3c3c3;
+    display:none;
+	cursor:pointer;
+}
+
+div.panel
+{
+height:120px;
+display:none;
+}
+
+​
+</style>
+</head>
+ 
+<body>
+ 
+<p class="flip">Nagivation</p>
+<p class="neg">-</p>
+
+<div class="panel">
+<p>Because time is valuable, we deliver quick and easy learning.</p>
+<p>At W3Schools, you can study everything you need to learn, in an accessible and handy format.</p>
+</div>
+ 
+</body>
+</html>
+
+
+​
