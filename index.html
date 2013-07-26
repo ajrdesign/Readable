@@ -8,7 +8,9 @@ title: My Home Page
 {% for post in site.posts %}
     
         <h3>
-            <a href="/Readable{{ post.url }}">{{ post.title }}</a>
+            <a href="/Readable{{ post.url }}">
+            	<img src="/Readable{{ post.image }}" />
+            	{{ post.title }}</a>
         </h3>
     
 {% endfor %}
