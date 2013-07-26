@@ -1,98 +1,18 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Readily</title>
-<link class="type-a-file" rel="stylesheet" media="screen" type="text/css" href="css/reset.css" />
-<link class="type-a-file" rel="stylesheet" media="screen" type="text/css" href="css/readily.css" />'
-<!--Typography-->
-<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic' rel='stylesheet' type='text/css'></head>
-<body>
-<div id="article">
-			<h1>Create legible content.</h1>
-			<div class="kicker">
-				<p>Two candidates, war hero Ellen Kiel and Black Lion trader Evon Gnashblade, are trying to secure a trade agreement with the Zephyr Sanctum – but neither of them can seal the deal without your support! The new Cutthroat Politics release has arrived, bringing with it new activities, challenges, and exclusive rewards!</p>
-			</div>
-			
-			<h2>The Typographic Basics</h2>
-	
-			<img class="image" src="img/bg8.jpg"/>
-			<div class="caption">You&rsquo;ll often want to caption photos. This is a .caption class</div>
-	
-			<p><span class="drop-cap">P</span>aragraphs are the core building block of typography online. You want to make sure you&rsquo;ve got a good line-height and horizontal width&mdash;aka measure&mdash;for good readability. If you stack your lines too close together, or too far apart, lines become harder to read. Like a staircase where the steps are too shallow or too steep. The standard line-height online is something between 1.5 and 2.0 ems.<a href="#ems" class="superscript">1</a> If your lines stretch too far across the page reading can feel like a tedious marathon. The standard single-column width online is about 70-90 characters.</p>
-	
-			<aside>
-				<h1>This is a &#8220;sidenote&#8221;</h1>
-				<p>It&rsquo;s different than a sidebar because its content are directly related to the main content at left. When <abbr>html5</abbr> is more prevalent, you&rsquo;ll be able to start using <code>&lt;aside&gt;</code> instead of a div with a class of .sidebar.</p>
-				<p>I&rsquo;ve set it up here as a div which contains h1s for titles, as well as paragraphs.</p>
-			</aside>
+---
+layout: default
+title: My Home Page
+---
 
-			<p>If you look at the source code you&rsquo;ll notice how the .sidenote to the right was written before this paragraph, which it is supposed to directly relate to. You&rsquo;ll probably want to set up your asides in the same manner.</p>
-			<p>These are the simple beginnings of Type-a-file. We&rsquo;ve put in a lot of work to make good typography easier for you. Colors &amp; structure we leave to you, but typographically, we got you covered. Download the file and follow the instructions for installing and setting it up. Now we&rsquo;ll get into some of the <em>fancier</em> elements we&rsquo;ve built into Type-a-file.</p>
-			
-			<h2>Puttin&#8217; on the Ritz</h2>
-			 
-			<p><span class="run-in">Sometimes you want an opening phrase to pop.</span> You could just put it in bold tags, but wouldn&rsquo;t you rather use semantic markup?<a href="#semantics" class="superscript">2</a> We&rsquo;ve created a class called .run-in so that you can! Best practices claim you&rsquo;ll usually want to keep those run-ins to one line.</p>
-			
-			<div class="sidenote">
-				<h1>Another sidenote.</h1>
-				<p>I thought it might be interesting to show you that you can put lists into sidenotes:</p>
-				<ul>
-					<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-					<li>Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam</li>
-				</ul>
-			</div>
-			
-			<p>Typically you want a nice, steady vertical rhythm to your page. Of course, some folks don&rsquo;t <span class="pullquote">There are times when you don't want to use long words in a pullquote.</span>think that it&rsquo;s actually necessary on the web to stick to a baseline grid, but it can be a great guide from which you can intelligently deviate. Speaking of intelligently deviating, there are some key elements that make great deviations from the monotony of paragraphs: the &#8220;quotes.&#8221; These include blockquotes and a special Type-a-file class named &#8220;pullquote.&#8221; The latter is above, the former below:</p>
-	
-			<blockquote><p>Headings, subheads, block quotations, footnotes, illustrations, captions and other intrusions into the text create syncopations and variations against the base rhythm of regularly leaded lines. These variations can and should add life to the page, but the main text should also return after each variation precisely on beat and in phase.</p></blockquote>
-			<cite>Robert Bringhurst</cite>
-		
-			<h2>Delineate, Demonstrate, Define</h2>
+<h1>Latest posts</h1>
+<div class="hfeed">
 
-			<p>This Type-a-file would of course be incomplete without specifications for lists, codes &amp; definitions. It&rsquo;s fairly common to indent both blockquotes and list elements, but seriously consider left aligning your text for these items and outdenting their bullets &amp; other visual demarcations. It can present a cleaner appearance while also drawing focused attention to information points.</p>
-
-			<ol>
-	   			<li>This is a list that is well ordered.</li>
-				<li>It starts with one and goes to two.</li>
-				<li>Then it has a third item.</li>
-	   			<li>Followed by the fourth, and&mdash;in this case&mdash;last item.</li>
-			</ol>
-
-			<ul>
-	   			<li>Un-ordered lists are just as simple.</li>
-	   			<li>The only difference being that the items are marks by bullets instead of numbers.</li>
-				<li>Don&rsquo;t forget that lists can have list titles.</li>
-	   			<li>Finally we&rsquo;ve reached the last un-ordered item.</li>
-			</ul>
-
-			<p>If you&rsquo;re a blogger geek, sooner or later you&rsquo;ll want to tell everybody about some ripping <abbr>css</abbr> coding you concocted by posting it on your blog-o-tubes. So we&rsquo;ve got you covered.</p>
-
-<pre><code>#header h1 a {
-display: block; 
-width: 300px; 
-height: 80px; 
-}</code></pre>
-
-			<p>Then, since you&rsquo;re an uber-geek-dufus-man-child who&rsquo;s fascinated by proving to the world you have sooooo much knowledge to share, you&rsquo;ll probably want to post some definitions or definition-like information where a title element is closely linked with a description of some kind. We got ya.</p>
-
-			<dl>
-   				<dt>Type-a-file</dt>
-   				<dd>A really awesome way to get your site up to typographic snuff. It uses traditional semantic HTML tags along with some additional semantic classes named after commonly occurring elements in print design to create a solid typographic toolkit for your website, whoever you are.</dd>
-   				<dt>CSS</dt>
-   				<dd>CSS stands for Cascading Style Sheet. This is a document format which provides a set of style rules which can then be incorporated in an XHTML or HTML document. It is a means to separate web content from formatting and presentation information. CSS is also a Brazilian rock band from São Paulo. The band was labeled as part of the explosion of the New Rave scene. Their songs are in both English and Portuguese. CSS is an abbreviation for Cansei de Ser Sexy , literally &#8220;tired of being sexy&#8221; in Portuguese.</dd>
-			</dl>
-
-			<p>You see how that works? You need something done typographically, Type-a-file does it. That simple. Now what are you waiting for? Find a flavor that suits your mood and go to town. Download the zip file. All the directions and files you&rsquo;ll need will be squished inside. Oh, and when you&rsquo;ve become a master <abbr>css</abbr>er and start making your own flavors of Type-a-file, come back and share them with the Type-a-file community!</p>
-
-			<small>This is just a <code>small</code> element. It&rsquo;s really useful when you want to add a small note or bit of text to something that&rsquo;s perhaps less important or a clarification of something. Another option in an arsenal of options.</small>
-		
-		<ol class="footnote">
-			<li id="ems"><span class="run-in">All about ems:</span> An em is a unit of measurement in the field of typography. This unit defines the proportion of the letter width and height with respect to the point size of the current font. Originally the unit was derived from the width of the capital &#8220;M&#8221; in the currently used typeface. This unit is not defined in terms of any specific typeface, and thus is the same for all fonts at a given point size. So, 1 em in a 16 point typeface is 16 points</li>
-			<li id="semantics"><span class="run-in">Semantic Web:</span>  A group of methods and technologies to allow machines to understand the meaning&mdash;or &#8220;semantics&#8221;&mdash;of information on the World Wide Web. The term was coined by World Wide Web Consortium (W3C) director Tim Berners-Lee. According to the original vision, the availability of machine-readable metadata would enable automated agents and other software to access the Web more intelligently. The agents would be able to perform tasks automatically and locate related information on behalf of the user.</li>
-		</ol>
+{% for post in site.posts %}
+    <article class="hentry entry">
+        <h1 class="entry-title">
+            <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
+        </h1>
+        <p>Posted on <span class="published">{{ post.date }}</span></p>
+    </article>
+{% endfor %}
 
 </div>
-   
-</body>
-</html>
